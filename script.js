@@ -5,7 +5,7 @@ xhr.setRequestHeader("Content-Type", "application/json;charset=UTF-8");
 const data = {
     title: "Lesson 26",
     body: "XMLHttpRequest",
-    userId: 1
+    id: 1
 };
 
 xhr.onreadystatechange = function() {
